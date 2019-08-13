@@ -1,0 +1,53 @@
+nadav366
+205457534
+Nadav Har-tuv
+I talked about the ex with Guy Katz, Yair Shemer, Itay Tayar and Ortal Glatt.
+
+We wrote software that is a rush-hour game.
+During the writing I practiced the basic use of object oriented programming.
+I learned to create classes by API and use them in other departments.
+
+#####################
+#   Car class-      #
+#####################
+
+An object that is a "car" in a rush-hour game.
+The class includes four internal attributes of the object-
+name, length, location, orientation.
+
+The class includes the functions to create and move the car,
+what are the possible moves of the vehicle, where the vehicle is, what
+its name is, and to which cell the vehicle will move - in a certain movement.
+
+#####################
+#   Board class-    #
+#####################
+
+An object that is a game board.
+The class includes Two variable values ​​-
+A two-dimensional array representing the board itself,
+and a dictionary containing the names and objects of the cars in the board.
+The class includes Two constants values ​​- The size of the board, and the
+victory coordinate.
+
+The class includes the functions to Create and print board,
+get the list of all the cells in the game,
+get a list that represents all the legal moves in the game,
+get the target cell, check if the specific cell is empty,
+add a car to the board, and move car in the board.
+
+#####################
+#   Game class-     #
+#####################
+
+An object that is a rush-hour game.
+The object coordinates the game board, the participating teams, and game rules.
+The class includes Two variable values ​​-
+A board type object, which is a game board and dictionary containing the names
+and objects of the cars in the game.
+
+The class includes the functions to Create game and And put all the ensembles
+according to the json file, And a function that stimulated the game.
+
+The class has private functions, which check the input and the move at each
+stage, and constitute a queue or request help in the game.
